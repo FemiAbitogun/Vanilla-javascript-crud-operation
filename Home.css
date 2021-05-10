@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(67, 240, 9, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+
+   
+}
+li{
+
+    margin: 4px auto;
+    min-height: 3em;
+    border-radius: 3em;
+    background-color: rgba(247, 242, 240, 0.883);
+}
+
+li:nth-child(even){
+background-color: rgba(253, 249, 6, 0.609);
+}
+
+.container{
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.bookListTitle{
+ 
+    background-color: rgba(240, 9, 9, 0.116);
+    min-height: auto;
+    width: auto;
+    padding: 10px 20px;
+   
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+#create input{
+
+    background: none;
+    text-align: center;
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 40px;
+    outline: none;
+    color: white; 
+    padding: .6em .3em;
+    font-size: large;
+}
+
+
+.bookList{
+   
+  
+
+    min-height: 50vh;
+    min-width: 50%;
+    margin:20px auto;
+    padding: 10px;
+    background-color: rgba(112, 165, 42, 0.465);
+    border-radius: 1em;
+    
+}
+
+.items{
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.items .assignment{
+    margin: auto 0px;
+    font-weight: 1000;
+  
+ 
+}
+
+.delete{
+   border: none;
+   border: 1px solid rgb(71, 58, 61);
+   border-radius: 10px;
+   outline: none;
+   background-color: rgb(73, 54, 54);
+   color: rgb(253, 251, 251);
+   padding: .5em .5em;
+   letter-spacing: .1em;
+   font-size: large;
+   
+}
